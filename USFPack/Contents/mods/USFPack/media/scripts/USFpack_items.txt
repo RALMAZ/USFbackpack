@@ -1,0 +1,22 @@
+module USFpack
+{    
+
+	imports
+	{
+		Base
+	}
+
+    item USFbackpack
+	{
+		WeightReduction	=	95,
+		Weight	=	4,
+		Type	=	Container,
+		Capacity	=	80,
+		DisplayName	=	Special force backpack,
+		Icon	=	USFbackpack,
+        CanBeEquipped = Back,
+        OpenSound   =   PZ_OpenBag,
+        CloseSound   =   PZ_CloseBag,
+        PutInSound   =   PZ_PutInBag,
+	}
+}
