@@ -9,9 +9,9 @@ module USFpack
     item USFbackpack
 	{
 		WeightReduction	=	95,
-		Weight	=	4,
+		Weight	=	2,
 		Type	=	Container,
-		Capacity	=	80,
+		Capacity	=	120,
 		DisplayName	=	Special force backpack,
 		Icon	=	USFbackpack,
         CanBeEquipped = Back,
