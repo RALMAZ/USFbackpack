@@ -1,7 +1,7 @@
 version=1
 id=1418620421
 title=USF Special Force backpack
-description=Add 80kg backpack
+description=Add 120kg backpack
 description=
 description=Added for Police, Gun store, Hunting etc.
 description=Capacity 80, weight reduction 95
