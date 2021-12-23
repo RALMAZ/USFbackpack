@@ -1,22 +1,27 @@
 module USFpack
 {    
 
-	imports
-	{
-		Base
-	}
+  imports
+  {
+    Base
+  }
 
-    item USFbackpack
-	{
-		WeightReduction	=	95,
-		Weight	=	2,
-		Type	=	Container,
-		Capacity	=	120,
-		DisplayName	=	Special force backpack,
-		Icon	=	USFbackpack,
-        CanBeEquipped = Back,
-        OpenSound   =   PZ_OpenBag,
-        CloseSound   =   PZ_CloseBag,
-        PutInSound   =   PZ_PutInBag,
-	}
+  item USFbackpack
+    {
+      Type = Container,
+      DisplayName	=	Special force backpack,
+      ClothingItem = Bag_DuffelBag,
+      CanBeEquipped = Back,
+      WeightReduction	= 99,
+      Weight = 1,
+      Capacity = 150,
+      Icon = Duffelbag,
+      OpenSound = OpenBag,
+      CloseSound = CloseBag,
+      PutInSound = PutItemInBag,
+      RunSpeedModifier = 1.95,
+      CanHaveHoles = false,
+      ReplaceInSecondHand = Bag_DuffelBag_LHand holdingbagleft,
+      ReplaceInPrimaryHand = Bag_DuffelBag_RHand holdingbagright,
+   }
 }
