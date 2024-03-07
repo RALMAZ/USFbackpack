@@ -1,27 +1,39 @@
-require 'Items/SuburbsDistributions'
+require "Items/Distributions"
+require "Items/ProceduralDistributions"
 
--- Add items for Police
-table.insert(SuburbsDistributions["policestorage"]["all"].items, "USFpack.USFbackpack");
-table.insert(SuburbsDistributions["policestorage"]["all"].items, 4);
-table.insert(SuburbsDistributions["policestorage"]["metal_shelves"].items, "USFpack.USFbackpack");
-table.insert(SuburbsDistributions["policestorage"]["metal_shelves"].items, 4);
-table.insert(SuburbsDistributions["storageunit"]["crate"].items, "USFpack.USFbackpack");
-table.insert(SuburbsDistributions["storageunit"]["crate"].items, 4);
-
--- Add items for Gun store
-table.insert(SuburbsDistributions["gunstore"]["locker"].items, "USFpack.USFbackpack");
-table.insert(SuburbsDistributions["gunstore"]["locker"].items, 4);
-table.insert(SuburbsDistributions["gunstore"]["all"].items, "USFpack.USFbackpack");
-table.insert(SuburbsDistributions["gunstore"]["all"].items, 4);
-table.insert(SuburbsDistributions["gunstorestorage"]["all"].items, "USFpack.USFbackpack");
-table.insert(SuburbsDistributions["gunstorestorage"]["all"].items, 4);
-
--- Add items Hunting home
-table.insert(SuburbsDistributions["hunting"]["all"].items, "USFpack.USFbackpack");
-table.insert(SuburbsDistributions["hunting"]["all"].items, 4);
-
--- All
-table.insert(SuburbsDistributions["all"]["crate"].items, "USFpack.USFbackpack");
-table.insert(SuburbsDistributions["all"]["crate"].items, 4);
-table.insert(SuburbsDistributions["all"]["metal_shelves"].items, "USFpack.USFbackpack");
-table.insert(SuburbsDistributions["all"]["metal_shelves"].items, 4);
+table.insert(ProceduralDistributions.list.ArmyStorageAmmunition.items, "USFpack.USFbackpack")
+table.insert(ProceduralDistributions.list.ArmyStorageAmmunition.items, 4)
+table.insert(ProceduralDistributions.list.ArmyStorageGuns.items, "USFpack.USFbackpack")
+table.insert(ProceduralDistributions.list.ArmyStorageGuns.items, 4)
+table.insert(ProceduralDistributions.list.BedroomSideTable.items, "USFpack.USFbackpack")
+table.insert(ProceduralDistributions.list.BedroomSideTable.items, 4)
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, "USFpack.USFbackpack")
+table.insert(ProceduralDistributions.list.FirearmWeapons.items, 4)
+table.insert(ProceduralDistributions.list.GarageFirearms.items, "USFpack.USFbackpack")
+table.insert(ProceduralDistributions.list.GarageFirearms.items, 4)
+table.insert(ProceduralDistributions.list.GunStoreCounter.items, "USFpack.USFbackpack")
+table.insert(ProceduralDistributions.list.GunStoreCounter.items, 4)
+table.insert(ProceduralDistributions.list.LockerArmyBedroom.items, "USFpack.USFbackpack")
+table.insert(ProceduralDistributions.list.LockerArmyBedroom.items, 4)
+table.insert(ProceduralDistributions.list.PlankStashGun.items, "USFpack.USFbackpack")
+table.insert(ProceduralDistributions.list.PlankStashGun.items, 4)
+table.insert(ProceduralDistributions.list.PawnShopGuns.items, "USFpack.USFbackpack")
+table.insert(ProceduralDistributions.list.PawnShopGuns.items, 4)
+table.insert(ProceduralDistributions.list.PawnShopGunsSpecial.items, "USFpack.USFbackpack")
+table.insert(ProceduralDistributions.list.PawnShopGunsSpecial.items, 4)
+table.insert(ProceduralDistributions.list.PoliceDesk.items, "USFpack.USFbackpack")
+table.insert(ProceduralDistributions.list.PoliceDesk.items, 4)
+table.insert(ProceduralDistributions.list.PoliceStorageGuns.items, "USFpack.USFbackpack")
+table.insert(ProceduralDistributions.list.PoliceStorageGuns.items, 4)
+table.insert(ProceduralDistributions.list.SecurityLockers.items, "USFpack.USFbackpack")
+table.insert(ProceduralDistributions.list.SecurityLockers.items, 1)
+table.insert(ProceduralDistributions.list.StripClubDressers.items, "USFpack.USFbackpack")
+table.insert(ProceduralDistributions.list.StripClubDressers.items, 1)
+table.insert(ProceduralDistributions.list.WardrobeRedneck.items, "USFpack.USFbackpack")
+table.insert(ProceduralDistributions.list.WardrobeRedneck.items, 1)
+table.insert(ProceduralDistributions.list.GarageFirearms.items, "USFpack.USFbackpack")
+table.insert(ProceduralDistributions.list.GarageFirearms.items, 1)
+table.insert(SuburbsDistributions.SurvivorCache1.SurvivorCrate.items, "USFpack.USFbackpack")
+table.insert(SuburbsDistributions.SurvivorCache1.SurvivorCrate.items, 1)
+table.insert(SuburbsDistributions.SurvivorCache2.SurvivorCrate.items, "USFpack.USFbackpack")
+table.insert(SuburbsDistributions.SurvivorCache2.SurvivorCrate.items, 1)

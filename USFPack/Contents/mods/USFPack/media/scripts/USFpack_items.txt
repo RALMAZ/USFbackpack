@@ -10,7 +10,8 @@ module USFpack
     {
       Type = Container,
       DisplayName	=	Special force backpack,
-      ClothingItem = Bag_DuffelBag,
+      DisplayCategoty = Bag,
+      ClothingItem = USFbackpack,
       CanBeEquipped = Back,
       WeightReduction	= 99,
       Weight = 1,
@@ -21,6 +22,8 @@ module USFpack
       PutInSound = PutItemInBag,
       RunSpeedModifier = 1.95,
       CanHaveHoles = false,
+      AttachmentReplacement = Bag,
+      BloodLocation = Bag,
       ReplaceInSecondHand = Bag_DuffelBag_LHand holdingbagleft,
       ReplaceInPrimaryHand = Bag_DuffelBag_RHand holdingbagright,
    }
